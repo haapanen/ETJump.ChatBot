@@ -1,0 +1,15 @@
+{
+  "token": "<ENTER YOUR DISCORD TOKEN HERE>",
+  "channelServerLinks": [
+    {
+      "server": "ServerA",
+      "guildId": 0,
+      "channelId": 0 
+    },
+    {
+      "server": "ServerB",
+      "guildId": 1,
+      "channelId": 1
+    }
+  ] 
+}

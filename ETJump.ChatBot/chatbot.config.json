@@ -1,0 +1,18 @@
+{
+  "servers": [
+    {
+      "name": "ServerA", 
+      "displayName": "Server A",
+      "logFile": "/path/to/etconsole.log",
+      "ipAddress": "127.0.0.1:27960",
+      "rconPassword": ""
+    },
+    {
+      "name":  "ServerB",
+      "displayName":  "Server B",
+      "logFile": "/path/to/etconsole.log",
+      "ipAddress": "127.0.0.1:27961",
+      "rconPassword": ""
+    }
+  ] 
+}

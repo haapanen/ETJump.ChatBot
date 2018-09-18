@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.0-beta1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.2.0-preview2-35157" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="2.2.0-preview2-35157" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.2.0-preview2-35157" />
+    <PackageReference Include="NLog" Version="4.5.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ETJump.ChatBot.Core\ETJump.ChatBot.Core.csproj" />
+    <ProjectReference Include="..\ETJump.ChatBot.Plugin.ChatLinker\ETJump.ChatBot.Plugin.ChatLinker.csproj" />
+    <ProjectReference Include="..\ETJump.ChatBot.Plugin.Discord\ETJump.ChatBot.Plugin.Discord.csproj" />
+    <ProjectReference Include="..\ETJump.Communication\ETJump.Communication.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="chatbot.config.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="nlog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

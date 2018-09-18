@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETJump.ChatBot", "ETJump.ChatBot\ETJump.ChatBot.csproj", "{34CA25B2-5157-49D6-9458-7A1ECDDFDE8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETJump.ChatBot.Core", "ETJump.ChatBot.Core\ETJump.ChatBot.Core.csproj", "{D31BFE31-61F4-4290-A605-003FC125FC17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{A119D37E-85C8-4A76-BDE5-85AD7D6191B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETJump.ChatBot.Plugin.ChatLinker", "ETJump.ChatBot.Plugin.ChatLinker\ETJump.ChatBot.Plugin.ChatLinker.csproj", "{5234506A-5896-4708-B668-F147E5D4499B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETJump.Communication", "ETJump.Communication\ETJump.Communication.csproj", "{876AF1F8-E520-42B4-9F0C-4D7C2D39FE5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETJump.Communication.Tests", "ETJump.Communication.Tests\ETJump.Communication.Tests.csproj", "{F559B363-C764-4EF5-84CB-F28A3A137D52}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETJump.ChatBot.Core.Tests", "ETJump.ChatBot.Core.Tests\ETJump.ChatBot.Core.Tests.csproj", "{C21E6500-A4E9-4065-A01B-CAB379495E7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETJump.ChatBot.Plugin.Discord", "ETJump.ChatBot.Plugin.Discord\ETJump.ChatBot.Plugin.Discord.csproj", "{0E07922D-1681-492B-B770-FE9EFD09E848}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34CA25B2-5157-49D6-9458-7A1ECDDFDE8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34CA25B2-5157-49D6-9458-7A1ECDDFDE8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34CA25B2-5157-49D6-9458-7A1ECDDFDE8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34CA25B2-5157-49D6-9458-7A1ECDDFDE8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D31BFE31-61F4-4290-A605-003FC125FC17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D31BFE31-61F4-4290-A605-003FC125FC17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D31BFE31-61F4-4290-A605-003FC125FC17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D31BFE31-61F4-4290-A605-003FC125FC17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5234506A-5896-4708-B668-F147E5D4499B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5234506A-5896-4708-B668-F147E5D4499B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5234506A-5896-4708-B668-F147E5D4499B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5234506A-5896-4708-B668-F147E5D4499B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{876AF1F8-E520-42B4-9F0C-4D7C2D39FE5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{876AF1F8-E520-42B4-9F0C-4D7C2D39FE5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{876AF1F8-E520-42B4-9F0C-4D7C2D39FE5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{876AF1F8-E520-42B4-9F0C-4D7C2D39FE5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F559B363-C764-4EF5-84CB-F28A3A137D52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F559B363-C764-4EF5-84CB-F28A3A137D52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F559B363-C764-4EF5-84CB-F28A3A137D52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F559B363-C764-4EF5-84CB-F28A3A137D52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C21E6500-A4E9-4065-A01B-CAB379495E7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C21E6500-A4E9-4065-A01B-CAB379495E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C21E6500-A4E9-4065-A01B-CAB379495E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C21E6500-A4E9-4065-A01B-CAB379495E7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E07922D-1681-492B-B770-FE9EFD09E848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E07922D-1681-492B-B770-FE9EFD09E848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E07922D-1681-492B-B770-FE9EFD09E848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E07922D-1681-492B-B770-FE9EFD09E848}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5234506A-5896-4708-B668-F147E5D4499B} = {A119D37E-85C8-4A76-BDE5-85AD7D6191B7}
+		{0E07922D-1681-492B-B770-FE9EFD09E848} = {A119D37E-85C8-4A76-BDE5-85AD7D6191B7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F014902-6534-43E5-AAEA-D468FD15DED0}
+	EndGlobalSection
+EndGlobal
